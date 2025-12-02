@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="nimc_green">#008D4C</color>
+    <color name="nimc_green_dark">#006838</color>
+    <color name="nimc_accent">#FFC107</color>
+    <color name="nimc_bg_light">#FAFAFA</color>
+    <color name="nimc_bg_dark">#121212</color>
+    <color name="nimc_text_primary_light">#212121</color>
+    <color name="nimc_text_secondary_light">#616161</color>
+    <color name="nimc_text_primary_dark">#FFFFFF</color>
+    <color name="nimc_text_secondary_dark">#BDBDBD</color>
+</resources>

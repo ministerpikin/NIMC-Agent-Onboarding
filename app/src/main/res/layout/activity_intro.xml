@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/introImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/intro_message_for_agent"
+        android:src="@android:drawable/ic_dialog_info"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/introText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_message"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/continue_next" />
+
+    <Button
+        android:id="@+id/btnNotInterested"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/not_interested"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

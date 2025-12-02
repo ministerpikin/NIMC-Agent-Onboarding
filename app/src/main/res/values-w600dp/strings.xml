@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nin_hint">NIN</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="gender_hint">Gender</string>
+    <string name="email_hint">Email</string>
+    <string name="dob_yyyy_mm_dd_hint">DOB (yyyy-MM-dd)</string>
+    <string name="fep_name_hint">FEP Name</string>
+    <string name="fep_code_hint">FEP Code</string>
+    <string name="state_hint">State</string>
+    <string name="back_label">Back</string>
+    <string name="capture_after_blink_smile_turn">Capture (after blink, smile, turn)</string>
+    <string name="data_saved_notice">Data saved locally. Verification will run in background.</string>
+    <string name="view_profile">View Profile</string>
+    <string name="agent_info_will_appear_here">Agent info will appear here.</string>
+    <string name="show_qr">Show QR</string>
+    <string name="scanning">Scanning...</string>
+    <string name="save_lable">Save</string>
+    <string name="offline_first_mode">Offline-first mode</string>
+    <string name="start_onboarding_text">Start Onboarding</string>
+</resources>

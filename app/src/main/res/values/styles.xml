@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Base App Theme -->
+<style name="Theme.Nimc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <item name="colorPrimary">@color/nimc_green</item>
+    <item name="colorPrimaryVariant">@color/nimc_green_dark</item>
+    <item name="colorAccent">@color/nimc_accent</item>
+    <item name="android:textColorPrimary">@color/nimc_text_primary_light</item>
+    <item name="android:windowBackground">@color/nimc_bg_light</item>
+</style>
+
+<!-- Typography -->
+<style name="NimcText.Title">
+    <item name="android:textSize">18sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@color/nimc_text_primary_light</item>
+</style>
+
+<style name="NimcText.Body">
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">@color/nimc_text_secondary_light</item>
+</style>
+
+<!-- Buttons -->
+<style name="NimcButton.Base" parent="Widget.MaterialComponents.Button">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+</style>
+
+<style name="NimcButton.Primary" parent="NimcButton.Base">
+    <item name="backgroundTint">@color/nimc_green</item>
+    <item name="android:textColor">@android:color/white</item>
+</style>
+
+<style name="NimcButton.Secondary" parent="NimcButton.Base">
+    <item name="backgroundTint">@android:color/transparent</item>
+    <item name="android:textColor">@color/nimc_green</item>
+</style>
+</resources>

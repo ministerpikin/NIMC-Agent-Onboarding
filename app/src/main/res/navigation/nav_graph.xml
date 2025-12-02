@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nimc.agentonboarding.HomeFragment"
+        android:label="Home">
+
+        <action
+            android:id="@+id/action_home_to_onboarding"
+            app:destination="@id/onboardingActivity" />
+
+        <action
+            android:id="@+id/action_home_to_supervisorLogin"
+            app:destination="@id/supervisorLoginActivity" />
+    </fragment>
+
+    <!-- We declare activities as destinations using activity tag -->
+    <activity
+        android:id="@+id/onboardingActivity"
+        android:name="com.nimc.agentonboarding.onboarding.OnboardingActivity" />
+
+    <activity
+        android:id="@+id/supervisorLoginActivity"
+        android:name="com.nimc.agentonboarding.supervisor.SupervisorLoginActivity" />
+
+</navigation>

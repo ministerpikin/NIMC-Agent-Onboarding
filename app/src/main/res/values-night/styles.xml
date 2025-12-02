@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Nimc" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/nimc_green</item>
+        <item name="colorPrimaryVariant">@color/nimc_green_dark</item>
+        <item name="colorAccent">@color/nimc_accent</item>
+        <item name="android:textColorPrimary">@color/nimc_text_primary_dark</item>
+        <item name="android:windowBackground">@color/nimc_bg_dark</item>
+    </style>
+
+    <style name="NimcText.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/nimc_text_primary_dark</item>
+    </style>
+
+    <style name="NimcText.Body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/nimc_text_secondary_dark</item>
+    </style>
+</resources>

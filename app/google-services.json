@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "371413183342",
+    "project_id": "nimc-agent-onboarding",
+    "storage_bucket": "nimc-agent-onboarding.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371413183342:android:e89a9fda35e110576c6f7f",
+        "android_client_info": {
+          "package_name": "com.nimc.agentonboarding"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaydBQpWwCwUleZi-G109A7dcU_cvEYVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

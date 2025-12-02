@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:padding="16dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".AgentProfileActivity">
+
+<ImageView
+    android:id="@+id/ivPhoto"
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="16dp"/>
+
+<TextView
+    android:id="@+id/tvInfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/agent_info_will_appear_here"
+    android:layout_marginBottom="24dp"/>
+
+<Button
+    android:id="@+id/btnShowQr"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/show_qr"/>
+</LinearLayout>

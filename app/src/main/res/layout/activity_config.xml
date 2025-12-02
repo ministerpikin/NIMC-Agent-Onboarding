@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfigActivity">
+
+    <!-- Switch
+        android:id="@+id/switchOfflineFirst1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/offline_first_mode"/ -->
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchOfflineFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/offline_first_mode"/>
+
+    <Button
+        android:id="@+id/btnSaveConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_lable"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
