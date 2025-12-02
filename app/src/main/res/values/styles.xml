@@ -32,13 +32,17 @@
     <item name="android:layout_height">wrap_content</item>
 </style>
 
-<style name="NimcButton.Primary" parent="NimcButton.Base">
-    <item name="backgroundTint">@color/nimc_green</item>
-    <item name="android:textColor">@android:color/white</item>
-</style>
+    <style name="NimcButton.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@color/nimc_green</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 
-<style name="NimcButton.Secondary" parent="NimcButton.Base">
-    <item name="backgroundTint">@android:color/transparent</item>
-    <item name="android:textColor">@color/nimc_green</item>
-</style>
+    <style name="NimcButton.Secondary" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:textColor">@color/nimc_green</item>
+    </style>
 </resources>
