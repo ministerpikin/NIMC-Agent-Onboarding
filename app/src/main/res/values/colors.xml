@@ -3,6 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="darkBackground">#000000</color>
+
     <color name="nimc_green">#008D4C</color>
     <color name="nimc_green_dark">#006838</color>
     <color name="nimc_accent">#FFC107</color>

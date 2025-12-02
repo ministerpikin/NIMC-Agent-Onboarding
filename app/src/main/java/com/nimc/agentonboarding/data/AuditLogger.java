@@ -7,7 +7,7 @@ public class AuditLogger {
         new Thread(() -> {
             AppDatabase db = AppDatabase.getDatabase(ctx);
             AuditLogEntity e = new AuditLogEntity();
-            e.eventType = type;
+            e.event = type;
             e.details = details;
             e.timestamp = System.currentTimeMillis();
             db.auditLogDao().insert(e);

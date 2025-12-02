@@ -25,7 +25,8 @@ xmlns:tools="http://schemas.android.com/tools">
         android:name=".onboarding.OnboardingActivity"
         android:exported="false" /> <!-- android:theme="@style/Theme.NIMCAgentOnboarding" -->
 
-    <activity android:name=".SplashActivity">
+    <activity android:name=".SplashActivity"
+        android:exported="false">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
@@ -66,9 +67,6 @@ xmlns:tools="http://schemas.android.com/tools">
         android:exported="false" />
     <activity
         android:name=".supervisor.SupervisorLoginActivity"
-        android:exported="false" />
-    <activity
-        android:name=".SplashActivity"
         android:exported="false" />
     <activity
         android:name=".SettingsActivity"

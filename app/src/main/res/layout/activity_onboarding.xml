@@ -25,11 +25,23 @@
         android:layout_height="0dp"
         android:layout_weight="1"/>
 
-    <com.google.android.material.tabs.TabLayout
+    <!-- com.google.android.material.tabs.TabLayout
         android:id="@+id/tabDots"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:tabIndicatorHeight="0dp"
-        app:tabSelectedIndicatorColor="@android:color/transparent"
-        app:tabRippleColor="@android:color/transparent" />
+        app:tabSelectedIndicatorColor="@color/nimc_green"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabTextColor="@color/nimc_text_secondary_light"
+        app:tabSelectedTextColor="@color/nimc_green"/ -->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabDots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="@color/nimc_green"
+        app:tabSelectedTextColor="@color/nimc_green"
+        app:tabTextColor="@color/nimc_text_secondary_light"
+        app:tabIndicatorHeight="2dp"
+        app:tabIndicatorGravity="center" />
 </LinearLayout>

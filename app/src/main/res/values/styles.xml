@@ -9,14 +9,19 @@
     <item name="android:windowBackground">@color/nimc_bg_light</item>
 </style>
 
+
+<style name="NimcText">
+    <item name="android:textColor">@color/nimc_text_primary_light</item>
+</style>
+
 <!-- Typography -->
-<style name="NimcText.Title">
+<style name="NimcText.Title" parent="NimcText">
     <item name="android:textSize">18sp</item>
     <item name="android:textStyle">bold</item>
     <item name="android:textColor">@color/nimc_text_primary_light</item>
 </style>
 
-<style name="NimcText.Body">
+<style name="NimcText.Body" parent="NimcText">
     <item name="android:textSize">14sp</item>
     <item name="android:textColor">@color/nimc_text_secondary_light</item>
 </style>
